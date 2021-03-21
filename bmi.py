@@ -10,10 +10,10 @@ bmi = 703 * float( weight ) / float( height ) ** 2
 print("Your BMI is {}".format( bmi ) )
 
 if bmi < 18.5:
-    print("You are underweight")
+    print("Just Eat More!! You are underweight")
 elif 18.5 < bmi <= 24.9:
-    print("Your weight is normal")
+    print("No Need to Worry!! Your weight is normal")
 elif 25.0 <= bmi <=29.9:
-    print("You're overweight")
+    print("Don't Eat like an Elephant!! You're overweight")
 else:
-    print("You're obese")
+    print("Just go to hell!! You're obese")
